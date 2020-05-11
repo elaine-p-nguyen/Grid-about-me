@@ -109,21 +109,34 @@ body {
   color: #fff;
 }
 
-h1 {
+header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header h1 {
   color:#fff;
   font-family: 'Lora', sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 700;
   text-transform: capitalize;
 }
 
+main {
+  width: 100%
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #555;
+}
+
 #intro {
-  font-size: 1.25em;
-  line-height: 1.125em;
+  font-size: 1.35em;
+  line-height: 1.25em;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
+  padding-top: 2em;
   font-weight: 400;
   display: flex;
   flex-grow: row wrap;
